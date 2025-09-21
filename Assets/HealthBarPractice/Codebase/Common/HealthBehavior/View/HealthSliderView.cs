@@ -6,12 +6,12 @@ namespace Assets.HealthBarPractice.Codebase.Common.HealthBehavior
     {
         public override void HandleViewUpdate(int current, int max)
         {
-            if (_Bar.maxValue != max)
+            if (Bar.maxValue != max)
             {
-                _Bar.maxValue = max;
+                Bar.maxValue = max;
             }
 
-            _Bar.value = current;
+            Bar.value = current;
         }
     }
 }

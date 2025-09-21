@@ -13,11 +13,11 @@ namespace Assets.HealthBarPractice.Codebase.Common.HealthBehavior.View
         private IEnumerator ChangeValue(int target) 
         {
             float framesCount = _changeDuration / Time.deltaTime;
-            float changeStep = Mathf.Abs((_Bar.value - target) / framesCount);
+            float changeStep = Mathf.Abs((Bar.value - target) / framesCount);
 
-            while (_Bar.value != target) 
+            while (Bar.value != target) 
             {
-                _Bar.SetValueWithoutNotify(Mathf.MoveTowards(_Bar.value, target, changeStep));
+                Bar.SetValueWithoutNotify(Mathf.MoveTowards(Bar.value, target, changeStep));
 
                 yield return null;
             }

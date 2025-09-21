@@ -6,17 +6,17 @@ namespace Assets.HealthBarPractice.Codebase.Common.HealthBehavior.View.Interface
     [RequireComponent(typeof(Slider))]
     public abstract class SliderBar : MonoBehaviour, IHealthView
     {
-        protected Slider _Bar;
+        protected Slider Bar;
 
         private void Awake()
         {
-            _Bar = GetComponent<Slider>();
+            Bar = GetComponent<Slider>();
         }
 
         public void Init(int current, int max)
         {
-            _Bar.maxValue = max;
-            _Bar.value = current;
+            Bar.maxValue = max;
+            Bar.value = current;
         }
 
         public void UpdateView(int current, int max)
