@@ -7,13 +7,6 @@ namespace Assets.HealthBarPractice.Codebase.Common.AttackBehavior
     {
         [SerializeField] private int _damage;
         
-        private IDamageable _target;
-
-        public void Construct(IDamageable target) 
-        { 
-            _target = target;
-        }
-
         public void PerformAttack(IDamageable target) 
         {
             target.TakeDamage(_damage);
