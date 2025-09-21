@@ -8,7 +8,7 @@ namespace Assets.HealthBarPractice.Codebase.Common.HealthBehavior.View.Interface
     {
         protected Slider Bar;
 
-        private void Awake()
+        protected virtual void Awake()
         {
             Bar = GetComponent<Slider>();
         }
