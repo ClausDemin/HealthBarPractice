@@ -675,11 +675,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1237653274 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 788598668564976672, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-  m_PrefabInstance: {fileID: 142225118044537246}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1258150030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,26 +1292,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3461739360512708943, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6695443376609251325, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_Color.b
-      value: 0.0024198315
-      objectReference: {fileID: 0}
-    - target: {fileID: 6695443376609251325, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_Color.g
-      value: 0.8679245
-      objectReference: {fileID: 0}
-    - target: {fileID: 6695443376609251325, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6695443376609251325, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_RaycastTarget
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6727349494654910652, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1397,46 +1372,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7776358353453710769, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_Value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7776358353453710769, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_MaxValue
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7776358353453710769, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_Direction
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7776358353453710769, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_WholeNumbers
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7776358353453710769, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      propertyPath: m_TargetGraphic
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 788598668564976672, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 142225118044537249}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
 --- !u!224 &142225118044537247 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6727349494654910652, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
   m_PrefabInstance: {fileID: 142225118044537246}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &142225118044537249
+--- !u!114 &142225118044537249 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4302333531432455058, guid: a8a9797bb6edbf646959b56be898ecf5, type: 3}
+  m_PrefabInstance: {fileID: 142225118044537246}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237653274}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b2d257ce4340b4498efb8a98150a3f3, type: 3}
@@ -1450,18 +1401,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1258150034}
     m_Modifications:
-    - target: {fileID: -7478820937704576759, guid: d1ebaf2c79fc3bf45955bc8fb8b5851c, type: 3}
-      propertyPath: _changeDuration
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1471546358036094736, guid: d1ebaf2c79fc3bf45955bc8fb8b5851c, type: 3}
-      propertyPath: m_Value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1471546358036094736, guid: d1ebaf2c79fc3bf45955bc8fb8b5851c, type: 3}
-      propertyPath: m_MaxValue
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2512040600634810909, guid: d1ebaf2c79fc3bf45955bc8fb8b5851c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
